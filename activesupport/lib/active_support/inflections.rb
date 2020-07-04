@@ -63,10 +63,9 @@ module ActiveSupport
     inflect.irregular("person", "people")
     inflect.irregular("man", "men")
     inflect.irregular("child", "children")
-    inflect.irregular("sex", "sexes")
     inflect.irregular("move", "moves")
     inflect.irregular("zombie", "zombies")
 
-    inflect.uncountable(%w(equipment information rice money species series fish sheep jeans police))
+    inflect.uncountable(%w(equipment information rice money species fish sheep jeans police))
   end
 end
